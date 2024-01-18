@@ -1,0 +1,51 @@
+body, div, span, h1, h2, h3, p {
+    font-size: larger;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-style: normal;
+    display: block;
+    
+}
+body {
+    background-color: gray;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png);
+}
+.red {
+    color: rgb(197, 0, 0);
+}
+.green {
+    color: rgb(30, 190, 30);
+}
+h1 {
+    display: flex;
+    background-color: aliceblue;
+    padding-left: 2%;
+    width: 100%;
+}
+.link {
+    width: 85%;
+    text-align: end;
+}
+h3 {
+    font-size: xx-large;
+}
+p {
+    font-size: medium;
+}
+.apple {
+    position: relative;
+    width: 50%;
+    background-color: aliceblue;
+}
+.breakfast, .fresh {
+    position: absolute;
+    width: 100%;
+    background-color: aqua;
+    text-align: end;
+    bottom: 10%;
+}
+.fresh {
+    z-index: 999;
+    bottom: 10px;
+}
