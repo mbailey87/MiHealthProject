@@ -5,7 +5,7 @@ body, div, span, h1, h2, h3, p {
     padding: 0px;
     font-style: normal;
     display: block;
-    
+   
 }
 body {
     background-color: gray;
@@ -57,7 +57,7 @@ p {
     right: 10%;
     bottom: 2%;
   }
-  
+ 
   .line {
     margin-top: 10px;
     width: 75px;
@@ -65,7 +65,7 @@ p {
     height: 8px;
     float: left;
   }
-  
+ 
   .point {
     width: 0;
     height: 0;
@@ -90,19 +90,23 @@ p {
     display: block; /* Inline-block is not needed for absolute positioning */
 }
 
+
 .apple .image {
     left: 0; /* Align this div to the far left */
 }
+
 
 .pasta .image {
     left: 33.33%; /* Align this div to start at one third of the parent's width */
     padding-left: 1%;
 }
 
+
 .shrimp .image {
     left: 66.66%; /* Align this div to start at two thirds of the parent's width */
     padding-left: 2%;
 }
+
 
 .breakfast, .fresh, .sweet, .lunch, .delicious, .dinner {
     position: absolute;
@@ -110,9 +114,9 @@ p {
     font-size: 75%;
     text-align: right;
     background-color: rgb(99, 176, 22);
-    color: white; 
+    color: white;
     right: -1%;
-    bottom: 2%; 
+    bottom: 2%;
     z-index: 999;
 }
 .breakfast, .lunch, .dinner{
@@ -123,17 +127,21 @@ p {
     right: 68%;
 }
 
+
 .sweet, .lunch{
-   right: 33%; 
+   right: 33%;
 }
+
 
 .delicious, .sweet, .fresh {
     bottom: 10%;
 }
 
+
 .breakfast, .lunch, .dinner {
-    width: auto; 
+    width: auto;
 }
+
 
 .fresh, .sweet, .delicious {
     width: auto;
